@@ -1,0 +1,175 @@
+/*
+Knewton Challenge CSS: "Improve the user's experience"
+*/
+
+.homepage section.body {
+  width: auto;
+}
+
+.homepage #logo {
+  display: inline;
+  font-size: 1.5em;
+}
+
+.homepage #topban h2, .homepage #logo {
+  line-height: 1em;
+}
+
+.homepage #rightbar, .homepage div#forums ul, .homepage #topban .sublinks {
+  font-size: 13px;
+}
+
+.homepage #leftbar {
+  padding-top: 10px;
+}
+
+#container {
+  position: relative;
+}
+
+.homepage #topban {
+  height: auto;
+}
+
+sup {
+  display: none;
+}
+
+#pagecontainer header .mi.post a {
+  background-color: #fff;
+}
+
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: 90px;
+  z-index: 11;
+}
+
+.skip:focus {
+  left: 0;
+}
+
+label {
+  position: absolute;
+  left: -10000px;
+}
+
+.ban {
+  background-color: #fff;
+  border-top: 0;
+}
+
+@media (max-width: 900px) {
+  .cats {
+    display: none;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  #leftbar, #rightbar, #center, #center td {
+    display: block;
+  }
+
+  .sublinks {
+    display: none;
+  }
+
+  .homepage #query {
+    display: block;
+    width: 100%;
+  }
+
+  .homepage #container {
+    width: 100%;
+  }
+
+  .homepage #rightbar {
+    text-align: center;
+  }
+
+  .homepage #leftbar {
+    margin-top: 10px;
+  }
+
+  #pagecontainer header .mi.post a, .homepage #postlks #post span {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 0;
+  }
+}
+
+@media (min-width: 901px) {
+  .homepage #topban {
+    border-bottom: 0;
+    left: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+
+  #logo, #topban h2 {
+    float: left;
+  }
+
+  .homepage #logo {
+    width: auto;
+  }
+
+  .homepage #search, .homepage #postlks {
+    float: right;
+    margin: 4px 10px;
+  }
+
+  .homepage #search {
+    display: inline;
+  }
+
+  .homepage #search select {
+    width: auto;
+  }
+
+  .homepage #leftbar {
+    left: 0;
+    min-height: 965px;
+    position: absolute;
+  }
+
+  .homepage #center {
+    padding-left: 12em;
+    width: 700px;
+  }
+
+  .homepage #postlks, .homepage #postlks li, .homepage #postlks li a {
+    display: inline-block;
+  }
+
+  .homepage section.body {
+    padding-top: 100px;
+  }
+
+  .homepage #topban .sublinks {
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.03);
+    display: block;
+    height: 20px;
+    left: 0;
+    padding-top: 5px;
+    position: fixed;
+    top: 36px;
+    width: 100%;
+  }
+
+  .homepage #main td {
+    width: 250px;
+  }
+
+  .homepage .col ul li a {
+    line-height: 20px;
+  }
+}
