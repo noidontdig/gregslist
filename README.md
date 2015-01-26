@@ -52,12 +52,6 @@ As I said earlier, improving the user's experience is a never ending task. There
 * Make the page more esthetically pleasing
 * Make the categories expand on click for mobile
 
-### Code
-
-* I added the `<script>` and `<link>` tags to the HTML file. My Javascript file presuposes the use of the `async` attribute in the `<script>` tag.
-* I would not usually use ID selectors in CSS, but chose to in this case to maximize for time
-* DOM manipulation made some of the HTML semantically incorrect, which I would fix in production code
-
 ### Thanks!
 
 For an interesting challenge :)
