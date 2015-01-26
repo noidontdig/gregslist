@@ -1,6 +1,5 @@
-#Knewton Code Challenge
+Knewton Code Challenge
 ===
-
 
 ###"Improve the user's experience"
 
@@ -18,7 +17,7 @@ I spent some time thinking about what matters on the Gregslist page. The "main" 
 * Search
 * Categories
 
-I wanted the DOM structure to reflect that, to make navigation easier for mobile users, screen readers, and keyboard navigation. 
+I wanted the DOM structure to reflect that, to make navigation easier for mobile users, screen readers, and keyboard navigation.
 
 ### Accessibility
 
@@ -29,12 +28,12 @@ I wanted the DOM structure to reflect that, to make navigation easier for mobile
 
 * I increased padding, line height, font size in various sections to make the page more readable
 * I used the cities' full names instead of short names
-* I removed the wiki link which adds no value to the page and adds confusion 
+* I removed the wiki link which adds no value to the page and adds confusion
 
 ### Mobile
 
 * I made the page easier to navigate for smaller screen sizes
-* I made the "Post" link more prominent 
+* I made the "Post" link more prominent
 
 ### "Design"
 
